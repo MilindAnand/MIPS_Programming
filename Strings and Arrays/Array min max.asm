@@ -8,8 +8,8 @@ max: .asciiz "\n max no. is: "
 main:
 la $t0, array
 li $t1,20
-li $t2,0x7fffffff #min
-li $t3,0x80000000 #max
+li $t2,0x7fffffff #to store min
+li $t3,0x80000000 #to store max
 l:
 addi $t1,$t1,-4
 bltz $t1,exit
