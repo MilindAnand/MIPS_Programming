@@ -22,7 +22,7 @@ lb $t4, newl
 
 strloop:
 add $t1,$t1,1
-lb $t2, str+0($t1)
+lb $t2, str+0($t1)		#not the best method imo, would be better to load address into a register and then use that, rather than add address to register each time
 beq $t2,$t4,revstr
 bne $t2,$0,strloop
 
