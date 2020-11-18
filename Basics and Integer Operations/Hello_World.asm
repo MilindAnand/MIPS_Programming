@@ -6,9 +6,12 @@ prompt: .asciiz "Enter the number: "
 
 .text #instructions follow this line
 main:
-
+# I took an integer input as a trial
 la $a0, prompt
 li $v0, 4
+syscall
+
+#the actual printing happens here
 la $a0, myMsg
 li $v0, 4 
 syscall
