@@ -1,6 +1,5 @@
 #ID: 2018A7PS0202H
 #Name: Milind Anand
-#Phone Number: 6205133496
 #email: f20180202@hyderabad.bits-pilani.ac.in
 
 .data
